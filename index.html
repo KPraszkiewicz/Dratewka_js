@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dane/style.css">
+    <script src="dane/skrypt.js"></script>
+</head>
+
+<body onload="gra.init()">
+    <div id="wszystko" style="display: none">
+        <p id="nazwa"></p>
+        <img id="obr" alt="obr" src="">
+        <div id="kompas">
+            <img src="dane/kompas.png" alt="kom">
+            <img src="dane/kompasN.png" alt="N" id="komN">
+            <img src="dane/kompasE.png" alt="E" id="komE">
+            <img src="dane/kompasS.png" alt="S" id="komS">
+            <img src="dane/kompasW.png" alt="W" id="komW">
+        </div>
+        <div id="ttt">
+            <p id="kier">You can go </p>
+            <p id="widoki">You see </p>
+            <p id="ekw">You are carrying </p>
+            <br>
+            <label id="komunikat" style="display: none"></label>
+            <label id="kom"><div id="kursor"></div>What now?<input type="text" name="pol" id="polecenia" autofocus onfocusout="this.focus()" onblur="this.focus()" maxlength="25" spellcheck="false"/></label>
+        </div>
+    </div>
+    <div id="VG">
+    </div>
+    <img alt="sd" src="dane/czołówka.jpg" id="czolowka">
+    <audio id="hejnal">
+        <source src="dane/hej.mp3" type="audio/mpeg">
+    </audio>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Nowa;
+    src: url("fonts/PressStart2P.ttf");
+    font-weight: bold;
+}
+
+body{
+    background: #393939;
+    
+}
+*{
+    cursor: default;
+    font-family: Nowa;
+    color:rgb(165,162,178);
+}
+#obr{
+    border:1px solid #ddd;
+    background: #9df338;
+    width: 275px;
+    float: left;
+}
+#czolowka{
+    width: 800px;
+    height: 600px;
+}
+input{
+    background: #393939;
+    outline:none;
+    border:none;
+    font-size: inherit;
+    margin: 0 10px;
+    caret-color:transparent;
+    cursor: inherit;
+	width: 400px;	
+}
+#kompas{
+    position: relative;
+    left:50px;
+    top:20px;
+}
+#kompas>img{
+    width: 250px;
+    position: absolute;
+}
+#ttt,#VG{
+    clear: both;
+    position: relative;
+    top:10px;
+}
+label{
+    position: relative;
+}
+#kursor{
+    width: 14px;
+    height: 17px;
+    background-color:rgb(165,162,178);
+    position: absolute;
+    left:155px;
+}
